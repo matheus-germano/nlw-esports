@@ -3,7 +3,7 @@ import * as Dialog from '@radix-ui/react-dialog';
 import { GameController } from 'phosphor-react';
 
 import { GameBanner } from './components/GameBanner';
-import { CreatedAdBanner } from './components/CreateAdBanner';
+import { CreateAdBanner } from './components/CreateAdBanner';
 
 import './styles/main.css';
 
@@ -50,7 +50,7 @@ function App() {
       </div>
 
       <Dialog.Root>
-        <CreatedAdBanner />
+        <CreateAdBanner />
 
         <Dialog.Portal>
           <Dialog.Overlay className="bg-black/60 inset-0 fixed" />
